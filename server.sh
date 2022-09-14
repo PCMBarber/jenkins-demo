@@ -1,5 +1,4 @@
 #!/bin/bash
-hi=getenv("hi");
 echo 'Starting server';
 echo '.';
 echo '.';
