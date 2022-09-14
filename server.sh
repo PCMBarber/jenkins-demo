@@ -3,4 +3,4 @@ echo 'Starting server';
 echo '.';
 echo '.';
 echo '.';
-echo 'Server started';
+echo 'Server started and '+getenv("hi");

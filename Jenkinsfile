@@ -1,10 +1,13 @@
 pipeline {
     agent any
+    environment {
+        hi="Hello Class"
+    }
     stages {
         stage('Test') {
             steps {
                 sh '''
-                echo 'doing tests';
+                echo $hi;
                 '''
             }
         }
